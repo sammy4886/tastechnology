@@ -14,6 +14,7 @@
 Route::get('/', 'FrontEndController@index')->name('index');
 
 
+
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::get('logout', 'Auth\LoginController@logout');

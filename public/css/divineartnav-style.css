@@ -18,7 +18,8 @@ ul.cart-list > li.total > .btn{
 /*--- Nav ---*/
 
 nav.navbar .navbar-brand img.logo {
-    max-width: 150px;
+    /*max-width: 150px;*/
+    max-width: 250px;
 }
 nav.navbar .megamenu-content .col-menu .title {
     display:none;

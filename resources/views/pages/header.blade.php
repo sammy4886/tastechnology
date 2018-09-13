@@ -20,8 +20,8 @@
                 <i class="ti-align-left"></i>
             </button>
             <a class="navbar-brand" href="index-47.html">
-                <img src="{{asset('images/logo-2.png')}}" srcset="{{asset('images/logo-2-2x-retina.png')}}" class="logo logo-display" alt="Divine">
-                <img src="{{asset('images/logo-2.png')}}" srcset="{{asset('images/logo-2-2x-retina.png')}}" class="logo logo-scrolled" alt="Divine">
+                <img src="{{asset('images/tech.jpg')}}" srcset="{{asset('images/tech.jpg')}}" class="logo logo-display" alt="Divine">
+                <img src="{{asset('images/tech.jpg')}}" srcset="{{asset('images/tech.jpg')}}" class="logo logo-scrolled" alt="Divine">
 
             </a>
         </div>
@@ -30,22 +30,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li class="dropdown megamenu-fw active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
-                </li>
-                <li class="dropdown megamenu-fw">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcode</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Features</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
-                </li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div>

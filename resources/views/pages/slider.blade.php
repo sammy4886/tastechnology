@@ -30,7 +30,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 5;border-width:0px;"><img src="{{asset('images/header_penpot.png')}}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
+                             style="z-index: 5;border-width:0px;"><img src="{{asset('images/header_flowerpot.png')}}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
@@ -52,7 +52,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6;border-width:0px;"><img src="{{asset('images/header_flowerpot.png')}}" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
+                             style="z-index: 6;border-width:0px;"><img src="{{asset('images/header_penpot.png')}}" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-10"

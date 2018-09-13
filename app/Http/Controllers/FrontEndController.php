@@ -20,6 +20,14 @@ class FrontEndController extends Controller
         return view('welcome');
     }
 
+//    public function services(){
+//        return view('services');
+//    }
+//
+//    public function  contact(){
+//        return view('contact');
+//    }
+
     //Album FrontEnd
     public function album()
     {
