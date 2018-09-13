@@ -112,7 +112,7 @@
                             </div>
 
                         </div>
-                        <a class="btn btn-default dart-btn-xs" href="#">Learn More</a>
+                        <a class="btn btn-default dart-btn-xs" href="#services">Learn More</a>
                         {{--<a class="btn btn-default dart-btn-xs" href="#">Purchase Now</a>--}}
 
                     </div>
@@ -122,5 +122,6 @@
 
         </div><!--end of /.panel-group-->
     </div><!--end of /.col-sm-6-->
+    <div id="services"></div>
 </section>
 <!-- End About US -->

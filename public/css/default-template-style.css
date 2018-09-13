@@ -504,7 +504,7 @@ a:hover{
 
 .list-style-1{
     list-style-position: outside;
-    list-style-image: url(../images/bullet%20points/bullet-1.png);
+    list-style-image: url(../images/bullet-1.png);
     list-style-type: none;
     padding-left: 15px;
 }

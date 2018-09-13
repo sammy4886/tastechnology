@@ -30,9 +30,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="{{url('/')}}">Home</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{url('/web')}}">Web</a></li>
+                        <li><a href="{{url('/business')}}">Business</a></li>
+                        <li><a href="{{url('/portal')}}">Portal</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{url('/contact')}}">Contact Us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div>

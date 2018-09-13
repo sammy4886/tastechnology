@@ -20,13 +20,25 @@ class FrontEndController extends Controller
         return view('welcome');
     }
 
-//    public function services(){
-//        return view('services');
-//    }
-//
-//    public function  contact(){
-//        return view('contact');
-//    }
+    public function web()
+    {
+        return view('pages.web');
+    }
+
+    public function business()
+    {
+        return view('pages.e-business');
+    }
+
+    public function portal()
+    {
+        return view('pages.portal');
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
 
     //Album FrontEnd
     public function album()
@@ -45,54 +57,12 @@ class FrontEndController extends Controller
         return view('frontend.partials.gallery', compact('gallery', 'album', 'albums'));
     }
 
-    public function about()
-    {
-        $team = Team::latest()->get();
-
-        return view('frontend.pages.about', compact('team'));
-    }
-
-    public function tradingSystem()
-    {
-
-        return view('frontend.pages.trading_system');
-    }
-
-    public function meetteam()
-    {
-        $team = Team::latest()->get();
-        return view('frontend.pages.meetteam', compact('team'));
-    }
-
-    public function contact()
-    {
-        return view('frontend.partials.contact');
-    }
-    public function disclaimer()
-    {
-        return view('frontend.pages.disclamer');
-    }
-
-    public function downloads()
-    {
-        $documents = Document::orderBy('id', 'DESC')->where('view', 'Downloads')->get();
-        return view('frontend.pages.downloads', compact('documents'));
-    }
-
-    public function services()
-    {
-        return view('frontend.pages.services');
-    }
-
-    public function noticelist(){
-        return view('frontend.partials.noticelist');
-    }
 
     public function noticepage($path)
     {
         $backnotice = Notice::where('title', $path)->latest()->get();
         $backnotices = Notice::latest()->get();
-        return View('frontend.partials.noticepage', compact('backnotice','backnotices'));
+        return View('frontend.partials.noticepage', compact('backnotice', 'backnotices'));
     }
 
     public function registration()

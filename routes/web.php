@@ -12,6 +12,12 @@
 */
 
 Route::get('/', 'FrontEndController@index')->name('index');
+Route::get('/web', 'FrontEndController@web')->name('web');
+Route::get('/business', 'FrontEndController@business')->name('business');
+Route::get('/portal', 'FrontEndController@portal')->name('portal');
+Route::get('/contact', 'FrontEndController@contact')->name('contact');
+
+
 
 
 

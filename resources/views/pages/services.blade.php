@@ -24,7 +24,7 @@
     applications, providing full life cycle support. We employ proven
     processes and methodologies.
 </p>
-                    <a class="box_btn" href="#" _blank="">Read More</a>
+                    <a class="box_btn" href="{{url('/web')}}" _blank="">Read More</a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4">
@@ -40,7 +40,7 @@
                         the most seasoned professional. We can help you with all this and more.
                         Whether you’re looking for a business-to-business or business-to-consumer
                         solution</p>
-                    <a class="box_btn" href="#" _blank="">Read More</a>
+                    <a class="box_btn" href="{{url('/business')}}" _blank="">Read More</a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4">
@@ -55,7 +55,7 @@
                     <p>Web portals allow employees, customers, and partners to choose their user
                         experience, with personalized applications based on their identity, role,
                         context, actions, location, preferences and team collaboration...</p>
-                    <a class="box_btn" href="#" _blank="">Read More</a>
+                    <a class="box_btn" href="{{url('/portal')}}" _blank="">Read More</a>
                 </div>
             </div>
         </div>
