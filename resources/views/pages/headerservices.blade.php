@@ -4,7 +4,7 @@
         <a class="navbar-brand" href="#"><img src="{{asset('images/tech.jpg')}}" class="logo" alt=""></a>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin-right: -15px;">
 
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
@@ -17,6 +17,7 @@
                         <li><a href="{{url('/portal')}}">Portal</a></li>
                     </ul>
                 </li>
+                <li><a href="{{url('/software')}}">Software</a></li>
                 <li><a href="{{url('/contact')}}">Contact Us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->

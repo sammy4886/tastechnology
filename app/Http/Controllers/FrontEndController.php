@@ -69,4 +69,9 @@ class FrontEndController extends Controller
     {
         return view('frontend.pages.registration');
     }
+
+    public function software()
+    {
+        return view('frontend.page.software');
+    }
 }

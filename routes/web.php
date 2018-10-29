@@ -16,9 +16,7 @@ Route::get('/web', 'FrontEndController@web')->name('web');
 Route::get('/business', 'FrontEndController@business')->name('business');
 Route::get('/portal', 'FrontEndController@portal')->name('portal');
 Route::get('/contact', 'FrontEndController@contact')->name('contact');
-
-
-
+Route::get('/software', 'FrontEndController@software')->name('software');
 
 
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

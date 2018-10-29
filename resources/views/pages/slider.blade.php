@@ -228,7 +228,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 16; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">T.A.S. Technology</div>
+                             style="z-index: 16; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;"> <img src="{{asset('images/techsample.jpg')}}"></div>
 
                         <!-- LAYER NR. 13 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"

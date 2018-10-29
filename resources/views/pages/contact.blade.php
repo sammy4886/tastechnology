@@ -20,9 +20,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387145.8662688941!2d-74.2581880279189!3d40.70531105474914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1476860298090" height="580" ></iframe>
-                    </div>
+                    {{--<div class="map">--}}
+                        <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Teku%2C%20Kathmandu+(Tas%20Technology)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+                {{--</div>--}}
                 </div>
                 <div class=" col-md-5 col-sm-6">
                     <div class="contact-block">
@@ -54,13 +54,14 @@
 
                         <div class=" row contact-info">
                             <div class="col-md-12 col-sm-12">
-                                <p class="addre"><i class="fa fa-map-marker"></i>10, Lorem Ipsum, Dummy Road, NY 487954, USA</p>
+                                <p class="addre"><i class="fa fa-map-marker"></i>Teku, Kathmandu</p>
                             </div>
                             <div class="col-md-12 col-sm-12">
-                                <p class="phone-call"><i class="fa fa-phone"></i> <a href="tel:+10484579845">+12 345 789 1234</a></p>
+                                <p class="phone-call"><i class="fa fa-phone"></i> +977-1-4243889</p>
                             </div>
                             <div class="col-md-12 col-sm-12">
-                                <p class="mail-id"><i class="fa fa-envelope"></i>info@divineart.com</p>
+                                <p class="mail-id"><i class="fa fa-envelope"></i>sales@tasintech.com</p>
+                                <p class="mail-id"><i class="fa fa-envelope"></i>www.tasintech.com</p>
                             </div>
                         </div>
 
